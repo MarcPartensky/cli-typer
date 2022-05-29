@@ -8,7 +8,5 @@ COPY data /opt/data
 COPY app.js package.json ./
 
 RUN npm i
-RUN ls
-RUN pwd
 
 ENTRYPOINT [ "node", "/opt/app.js" ]
