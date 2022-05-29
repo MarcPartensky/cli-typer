@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  cli-typer:
+    image: marcpartensky/cli-typer
+    build: .
+
